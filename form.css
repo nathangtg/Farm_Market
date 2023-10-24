@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("resources/img_3.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FormContainer{
+    width: 65%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    padding: 20px 60px 40px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.FormContainer .FormContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FormContainer .FormContent .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+.FormContent .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: palegoldenrod;
+}
+.FormContent .left-side .details{
+    margin: 14px;
+    text-align: center;
+}
+.FormContent .left-side .details i{
+    font-size: 30px;
+    color: palegoldenrod;
+    margin-bottom: 10px;
+}
+.FormContent .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+}
+.FormContent .left-side .details .text-one,
+.FormContent .left-side .details .text-two{
+    font-size: 14px;
+    color: palegoldenrod;
+}
+.FormContent .left-side .details .topic{
+    color: greenyellow;
+    font-size: 21px;
+}
+
+.FormContainer .FormContent .right-side{
+    width: 75%;
+    margin-left: 75px;
+}
+.FormContent .right-side .topic-text{
+    font-size: 28px;
+    font-weight: 600;
+    color: palegoldenrod;
+}
+.form-text{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: greenyellow;
+    font-size: 17px;
+}
+.right-side .form_input_box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+.right-side .form_input_box input,
+.right-side .form_input_box_message textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+    color: white;
+}
+.right-side .form_input_box_message textarea{
+    min-height: 110px;
+    resize: none;
+}
+.SendButton {
+    font-size: 2.5vh;
+    margin-top: 2.5vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: darkgreen;
+    border: none;
+    padding: 1.2vh 2.2vh;
+    border-radius: .5vh;
+    background-color: #ffbe18;
+    font-weight: bolder;
+    transition: .5s;
+    cursor: pointer;
+    animation: AppearFromAbyss ease-in;
+    animation-duration: 3s;
+    animation-delay: -2s;
+}
+
+.SendButton:hover {
+    transition: .5s;
+    background-color: darkgreen;
+    color: white;
+}
+.go_home_form{
+    margin-left: 2vh;
+    color: lightgray;
+}

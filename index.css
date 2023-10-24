@@ -1,0 +1,1282 @@
+/* FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+SC:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    background-size: cover;
+    opacity: 100;
+    background-position-x: 100%;
+}
+
+/* HEADER STYLING */
+.contactsButton {
+    display: flex;
+    width: fit-content;
+    flex-direction: row-reverse;
+    margin-left: 10vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.contactsButton .a {
+    color: darkgreen;
+}
+
+.fa-whatsapp {
+    padding-top: 4.1vh;
+    margin-left: 1.9vh;
+    margin-right: 1.8vh;
+    color: darkgreen;
+}
+
+.fa-instagram {
+    padding-top: 4.1vh;
+    margin-left: 4vh;
+    color: darkgreen;
+}
+
+.fa-linkedin-square {
+    padding-top: 4.1vh;
+    margin-left: 4.5vh;
+    margin-right: 1.3vh;
+    color: darkgreen;
+}
+
+.fa-youtube-play {
+    padding-top: 4.1vh;
+    margin-left: 4.5vh;
+    margin-right: 1.3vh;
+    color: darkgreen;
+}
+
+
+.header {
+    display: flex;
+    border-bottom: solid black 0.5px;
+}
+
+.header .header-text {
+    margin-left: 1.5%;
+    color: darkgreen;
+    padding-top: 0.2%;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: lighter;
+}
+
+.header .header-text {
+    padding-right: 5vh;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.header .appbarContainer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header .appbarContainer .links {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: black;
+    padding: 5vh;
+    font-size: 25px;
+    cursor: pointer;
+    transition: color 0.5s, text-decoration 0.5s;
+}
+
+.header .appbarContainer .links:hover {
+    color: green;
+    transition: color 0.5s, text-decoration 15s;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: bolder ;
+}
+
+.header #\#icon {
+    display: inline;
+    position: relative;
+    padding-top: 4.5vh;
+    float: right;
+    margin-left: auto;
+    margin-right: 2.5%;
+    padding-bottom: 1.5vh;
+}
+
+/* UPPER BODY STYLING */
+
+.upperBody {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("resources/FarmerPicture.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+}
+
+.upperBody .DetailedUpperBodyTitle {
+    width: fit-content;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    padding-top: 11.25%;
+    padding-left: 10%;
+    padding-bottom: 0;
+}
+
+.upperBody .CompanyName {
+    color: white;
+    width: 75%;
+    height: 25%;
+    font-family: var(--agriox-font-3, "Shadows Into Light", cursive);
+    font-size: 30px;
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+    opacity: 0%;
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: inherit;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+        font-size: 25px;
+    }
+}
+
+.upperBody .ParagraphName {
+    width: 75%;
+    font-size: 25px;
+}
+
+.AboutUsButton {
+    margin-top: 2.5vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: darkgreen;
+    border: none;
+    padding: 3.5% 10%;
+    border-radius: .5vh;
+    background-color: #ffbe18;
+    font-weight: bolder;
+    transition: .5s;
+    cursor: pointer;
+    animation: AppearFromAbyss ease-in;
+    animation-duration: 3s;
+    animation-delay: -2s;
+}
+
+@keyframes AppearFromAbyss {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.AboutUsButton:hover {
+    transition: .5s;
+    background-color: darkgreen;
+    color: white;
+}
+
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+/* ABOUT US PAGE*/
+
+.AboutUsheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("resources/AboutUS_Farm_Picture.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+.AboutUsheader .AboutHeaderText {
+    opacity: 0;
+    font-size: 25px;
+    color: black;
+    word-spacing: 0.5vh;
+    padding-top: 3vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    animation:  fadeUp ease-in-out forwards; /* Use fadeIn as the animation name */
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        color: black;
+    }
+    to {
+        opacity: 1;
+        color: white;
+    }
+}
+
+.AboutUsheader  a {
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.AboutUsheader  a:hover {
+    color: darkgreen;
+    transition: 0.25s;
+}
+
+/* DETAILED PAGE */
+/* DETAILED PAGE */
+
+.companyProfile {
+    background-image: url("resources/white_Block_Backgruond.webp");
+    background-size: 40%;
+    width: 100%;
+    display: flex;
+}
+.section_1_profile {
+    width: 75%;
+    margin-left: 10%;
+    animation: fadeIn ease-in;
+    animation-duration: 4s;
+    animation-delay: -2.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 10;
+    }
+}
+
+.section_1_profile h2 {
+    margin-top: 6.5%;
+    margin-bottom: 4%;
+    padding-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section_1_profile h1 {
+    margin-top: 2%;
+    font-size: 5vh;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.section_1_profile .BigSlogan {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+    font-weight: lighter;
+    font-size: 3vh;
+    color: green;
+}
+
+.section_1_profile img {
+    margin-top: 2.5vh;
+    width: 20%;
+    height: 15vh;
+    margin-bottom: .5vh;
+    transition-duration: 0.3s;
+}
+
+.section_1_profile img:hover {
+    transform: scale(110%);
+    transition-duration: 0.3s;
+}
+
+.section_1_profile .IconFood {
+    margin-left: 4vh;
+    width: 20%;
+}
+
+.section_1_profile h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5vh;
+}
+
+.section_1_profile .SmallSlogan {
+    width: 60%;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 2vh;
+    text-space: 1.5%;
+    font-weight: bold;
+    color: green;
+}
+
+/* RIGHT SIDE OF DETAILS*/
+/* RIGHT SIDE OF DETAILS*/
+
+.ImagesOfRightHalf {
+    margin-top: 2%;
+    margin-bottom: 4vh;
+    border-radius: 15px;
+    border: solid black;
+    display: flex;
+    width: 75%;
+    height: 100vh;
+    margin-right: 10%;
+    right: 5%;
+    background-image: url("resources/about-v3-img1.jpg");
+    background-size: cover;
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+    opacity: 0%;
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: inherit;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.slide-from-right {
+    animation: slideFromRight 0.5s ease-in-out;
+}
+
+/* SHOPPING PAGE */
+/* SHOPPING PAGE */
+/* SHOPPING PAGE */
+/* SHOPPING PAGE */
+/* SHOPPING PAGE */
+
+.shoppingHeader {
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url("resources/nice-farm-shopping-background.webp");
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.shoppingTextHeader {
+    padding-top: 7.5%;
+    margin: 0;
+}
+
+.shoppingTextHeader h1 {
+    color: whitesmoke;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: lighter;
+    margin: 0;
+}
+
+/* ITEMS VIEW */
+/* ITEMS VIEW */
+
+.items_view {
+    margin-top: 0;
+    width: 100%;
+    height: max-content;
+    background: rgb(88,187,217);
+    background: linear-gradient(90deg, rgba(88,187,217,0.7506652319130778) 22%, rgba(79,223,96,0.8066876408766632) 61%, rgba(0,212,255,0.5741946436777836) 100%);    background-size: cover;
+    color: green;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+}
+
+.items_view h1 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: bold;
+    animation: ItemViewH1 ease-in forwards;
+    animation-duration: 3.6s;
+    animation-delay: -3s;
+    color: black;
+    padding: 0;
+}
+
+@keyframes ItemViewH1 {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        font-size: 3vh;
+    }
+}
+
+.all_items_view_row {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.all_items_view_row .itemBox {
+    background-color: white;
+    box-shadow: .5vh .5vh black;
+    color: green;
+    width: 250px;
+    margin: 2rem;
+    height: fit-content;
+    border: black solid thin;
+    border-radius: 3%;
+    animation: ItemBoxAnimate ease-in forwards;
+    animation-duration: 3.4s;
+    animation-delay: -3s;
+}
+
+@keyframes ItemBoxAnimate {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+        font-size: inherit;
+    }
+}
+
+.all_items_view_row .itemBox .itemInformation {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.itemBox .itemInformation .itemTitle {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.itemDescription {
+    color: black;
+    font-size: 1.8vh;
+    margin-top: 2vh;
+    padding-left: .3vh;
+    padding-right: .3vh;
+    height: 2vh;
+    width: 100%;
+    text-align: center;
+}
+
+.itemThumbnail {
+    margin-bottom: 0;
+    height: 30vh;
+    width: 250px;
+    border-radius: 3%;
+    border: solid black thin;
+}
+
+.itemBuyButton {
+    position: relative;
+    bottom: 0;
+    padding: 1.5vh;
+    background-color: black;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.itemBuyButton:hover {
+    background-color: green;
+    color: lightskyblue;
+    transition-duration: 0.3s;
+}
+
+.itemBox {
+   transition-duration: 0.3s;
+}
+
+.itemBox:hover {
+    scale: 105%;
+    transition-duration: 0.3s;
+}
+
+/* CART VIEW FOR USER */
+/* CART VIEW FOR USER */
+
+.yourCartHeader {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0,0,0,0.87);
+    color: white;
+    font-size: 3vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.userCart {
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    height: fit-content;
+    background-color: rgba(0,0,0,0.87);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.userCart .hidden {
+    display: none;
+}
+
+.userCart .itemCarted {
+    margin: 0;
+    margin-bottom: 4vh;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.itemCarted {
+    font-family: 'Work Sans', sans-serif;
+    animation: AppearFromAbyss ease-in;
+}
+
+.yourCartHeader.hidden {
+    display: none;
+}
+
+.itemCarted .imageInCart {
+    height: fit-content;
+    width: 15vh;
+    margin: 0;
+    border: black solid thin;
+    border-radius: 2vh;
+}
+
+.itemCarted .itemCartBoxed {
+    width: 70%;
+    display: flex;
+    align-content: center;
+    background-color: white;
+    border-radius: 2vh;
+}
+
+.itemCarted .itemCartBoxed h4{
+    padding: 2.3vh 1vh 0;
+    width: 70%;
+    display: flex;
+    font-size: 2.5vh;
+}
+
+.itemQuantitySelector {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+}
+
+.itemQuantitySelector button {
+    margin: 5.2vh 2vh;
+    border: none;
+    background: none;
+    height: fit-content;
+    transition: .3ms;
+}
+
+.itemQuantitySelector button:active {
+    border-radius: 50%;
+    opacity: .5;
+}
+
+.yourFinaltotal {
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.checkoutButton {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    height: 12vh;
+    background-color: black;
+}
+
+#delServ {
+    padding-left: .5vh;
+    width: 12vh;
+    height: 2.5vh;
+    margin-bottom: 1.5vh;
+    scale: 115%;
+    border-radius: 2vh;
+    margin-left: .55vh;
+    transition-duration: .5s;
+}
+
+#delServ:active {
+    scale: 120%;
+    transition-duration: .5s;
+}
+
+.checkoutButton button {
+    margin-top: 1.5vh;
+    background-color: black;
+    color: white;
+    border: solid white ;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    width: max-content;
+    border-radius: 1vh;
+}
+
+.checkoutButton button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.h4 {
+    font-size: 3vh;
+}
+
+.yourFinaltotal .totalNumber {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.priceOfItem {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1vh;
+}
+
+.itemPrice {
+    padding-top: 3vh;
+    font-weight: bolder;
+    color: black;
+    font-size: 2vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.Collabheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("resources/Screenshot 2023-10-08 055801.png");
+    background-size: 101% 101%;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    width: 100%;
+    height: 35vh;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+.Collabheader .CollabText {
+    opacity: 0;
+    font-size: 25px;
+    color: black;
+    word-spacing: 0.5vh;
+    padding-top: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    animation:  fadeUp ease-in-out forwards; /* Use fadeIn as the animation name */
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+
+.ComeJoinUs{
+    margin: 0;
+    text-align: center;
+    animation: ComeJoinUs ease-in forwards;
+    font-family: 'Onest', sans-serif;;
+}
+
+@keyframes ComeJoinUs {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ComeJoinUs h1{
+    margin-top: 0;
+    padding-top: 2vh;
+    font-size: 5vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.ComeJoinUs p{
+    margin-top: 4vh;
+    margin-left: 45vh;
+    margin-right: 45vh;
+    font-size: 3vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.CollabButton {
+    font-size: 2.8vh;
+    margin-top: 2.5vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: darkgreen;
+    border: none;
+    padding: 2vh 3vh;
+    border-radius: .5vh;
+    background-color: #ffbe18;
+    font-weight: bolder;
+    transition: .5s;
+    cursor: pointer;
+    animation: AppearFromAbyss ease-in;
+    animation-duration: 3s;
+    animation-delay: -2s;
+}
+
+.CollabButton:hover {
+    transition: .5s;
+    background-color: darkgreen;
+    color: white;
+}
+
+.whyus{
+    width: 80%;
+    text-align: center;
+    margin: 7vh auto;
+    font-size: 2.3vh;
+}
+
+.whyus h1 {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.why{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+    margin-bottom: 7vh;
+}
+.reason1{
+    flex-basis: 31%;
+    border-radius: 3vh;
+    margin-bottom: 5%;
+    padding: 2vh 4vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("resources/img.png");
+    background-position: center 40%;
+    transition: .5s;
+}
+
+.reason2{
+    flex-basis: 31%;
+    border-radius: 3vh;
+    margin-bottom: 5%;
+    padding: 2vh 4vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("resources/img_1.png");
+    transition: .5s;
+}
+
+.reason3{
+    flex-basis: 31%;
+    border-radius: 3vh;
+    margin-bottom: 5%;
+    padding: 2vh 4vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("resources/img_2.png");
+    background-size: cover;
+    transition: .5s;
+}
+
+.why h3{
+    font-size: 3vh;
+    text-align: center;
+    color: aliceblue;
+}
+.why p{
+    font-size: 2.5vh;
+    text-align: center;
+    color: palegoldenrod;
+    font-family: Arial, serif;
+}
+
+.reason1:hover {
+    transition: .5s;
+    transform: scale(1.12);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/img.png");
+}
+
+.reason2:hover {
+    transition: .5s;
+    transform: scale(1.12);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("resources/img_1.png");
+}
+
+.reason3:hover {
+    transition: .5s;
+    transform: scale(1.12);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/img_2.png");
+}
+
+.FormBG{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/img_3.png");
+}
+
+.HeaderOfCollab {
+    background-image: url("resources/white_Block_Backgruond.webp");
+    margin: 0;
+    background-size: auto;
+    background-position-y: 100vh;
+    background-repeat: repeat;
+    padding: 0;
+}
+
+.accordion-for-faq {
+    background-color: white;
+    border: solid black thin;
+    width: 55%;
+    position: relative;
+    margin-top: 5vh;
+    padding-top: .2vh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.content-container {
+    margin-bottom: 4vh;
+}
+
+.accordion-for-faq .faq_title {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 6vh;
+}
+
+.accordion-for-faq .content-container .question {
+    padding: 10px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: black solid;
+    position: relative;
+}
+
+.accordion-for-faq .content-container .question::after {
+    content: '+';
+    position: absolute;
+    right: 5%;
+    padding-bottom: 2vh;
+}
+
+.accordion-for-faq .content-container .answer {
+    padding-top: .45%;
+    line-height: 1.5;
+    font-size: 22px;
+    width: 100%;
+    height: 0px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.accordion-for-faq .content-container.active .answer{
+    height: 150px;
+    transition: 0.5s;
+    overflow-y: scroll;
+}
+
+/* CHECK OUT LANDING PAGE */ /* CHECK OUT LANDING PAGE */
+/* CHECK OUT LANDING PAGE */ /* CHECK OUT LANDING PAGE */
+/* CHECK OUT LANDING PAGE */ /* CHECK OUT LANDING PAGE */
+
+.CheckOutForHeaderBox {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("resources/AboutUS_Farm_Picture.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-content: center;
+}
+
+.CheckOutForHeaderBox h1 {
+    margin-top: 5.5vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.CheckoutFormHeader {
+    margin: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 14vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.CheckoutFormHeader h1{
+    padding-top: 3vh;
+}
+
+.FormFillPage {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    height: 7vh;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    align-items: center;
+    width: 30vh;
+    border-radius: 2vh;
+    font-size: 17px;
+    transition: .5s;
+    margin: 5vh 65vh 4vh 85vh;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    transition: .5s;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* SERVICE PAGE */
+/* SERVICE PAGE */
+/* SERVICE PAGE */
+/* SERVICE PAGE */
+/* SERVICE PAGE */
+
+body {
+    margin: 0;
+}
+
+.servicePageBox1 {
+    background: url("resources/deliveryBackground.jpg");
+    background-size: cover;
+    background-position-y: 5vh;
+    height: 90vh;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 4vh;
+    padding-left: 4vh;
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: inherit;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+        font-size: 25px;
+    }
+}
+
+.boxHeader {
+    margin-top: 2.5vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.boxContent {
+    margin: 0;
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+    opacity: 0%;
+    width: fit-content;
+    height: max-content;
+    font-size:2.5vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.boxContent li {
+    list-style: none;
+    font-size: 2.5vh;
+}
+
+.boxContent table {
+    margin-top: 5vh;
+    border: solid black;
+    margin-bottom: 5vh;
+    border-radius: .7vh;
+}
+
+.boxContent th {
+    width: 11.5vh;
+    padding-top: 1vh;
+    border: solid black;
+}
+
+.boxContent td {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: greenyellow;
+    border-radius: 1vh;
+    border: solid black;
+}
+
+/*  Farmer Picture */
+
+.farmerService {
+    background-size: cover;
+    background-image: url("itemPictures/farmPicture.jpg");
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.paragraphText {
+    padding-left: 9.5vh;
+    padding-right: 9.5vh;
+    width: 100%;
+    align-content: center;
+    word-spacing: 1vh;
+    text-align: center;
+}
+
+.Blogheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("resources/total-agriculture-innerpage-header.png");
+    background-size: 101% 101%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+.Blogheader .BlogText {
+    opacity: 0;
+    font-size: 25px;
+    color: black;
+    word-spacing: 0.5vh;
+    padding-top: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    animation:  fadeUp ease-in-out forwards; /* Use fadeIn as the animation name */
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+
+.BlogBG {
+    background-image: url("resources/white_Block_Backgruond.webp");
+    margin: 0;
+    background-size: auto;
+    background-position-y: 100vh;
+    background-repeat: repeat;
+    padding-top: 8vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 8vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.BlogBG .blogs{
+    width: 60%;
+}
+.BlogBG .blogs img{
+    width: 100%;
+    border-radius: 19px;
+    height: 65vh;
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+}
+.BlogBG .blogs .post{
+    color: black;
+    padding: 15px 0 50px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.BlogBG .blogs .post p{
+    color: black;
+    padding-bottom: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-color: white;
+    font-size: 2.5vh;
+}
+.BlogBG .blogs .post a{
+    font-size: 2vh;
+    margin-top: 2vh;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: darkgreen;
+    border: none;
+    padding: 1.5vh 2vh;
+    border-radius: .5vh;
+    background-color: #ffbe18;
+    font-weight: 750;
+    transition: .5s;
+    cursor: pointer;
+    animation: AppearFromAbyss ease-in;
+    animation-duration: 3s;
+    animation-delay: -2s;
+}
+.BlogBG .blogs .post a:hover {
+    transition: .5s;
+    background-color: darkgreen;
+    color: white;
+}
+.BlogBG .cate{
+    width: 30%;
+    animation: slideFromRight forwards ;
+    animation-duration: 1.5s;
+    animation-delay: -1s;
+}
+.BlogBG .cate p{
+    padding-bottom: 7px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vh;
+}
+.BlogBG .cate a{
+    text-decoration: none;
+    color: green;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+}
+.BlogBG .cate a:hover{
+    transition: .5s;
+    color: #ffbe18;
+}
+.BlogBG .cate .currentblog{
+    color: #ffbe18;
+}
+
