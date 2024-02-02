@@ -8,4 +8,6 @@ Responsive Design: Crafted with HTML and CSS, our layout adapts seamlessly acros
 Dynamic Content: Utilizing vanilla JavaScript, the Farm Market dynamically updates content, ensuring users have access to the latest product offerings and information.
 User-Friendly Interface: Designed with the user in mind, the interface combines aesthetics with functionality, making navigation through the market an intuitive and enjoyable experience.
 
-<p style{color: red}>This is the first ever project I am working on</p>
+This is the first project that I have ever created in my whole lifetime
+It leverages the use of HTML CSS and JS as well as the 3D library of Spline (Front-end) without Back-end.
+This project also marks my first ever project in the Computer Science landscape
